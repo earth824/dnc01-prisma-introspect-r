@@ -1,0 +1,8 @@
+// PRISMA MIGRATE (INTROSPECTION)
+1. npm i -D prisma (prisma migrate, introspection)
+2. npx prisma init 
+(first find prisma in node_moules, if found then execute prisma command, 
+otherwise temporary download prisma and execute prisma command)
+3. change database url in .env file (existing database)
+DATABASE_URL="postgresql://postgres:your_password@localhost:5432/chinook"
+4. npx prisma db pull
